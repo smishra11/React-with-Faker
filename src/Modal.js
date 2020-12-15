@@ -61,7 +61,7 @@ class Modal extends Component {
                 </div>
               </div>
               <p>
-                <b>Company</b>
+                <b>Company: </b>
               </p>
               <div className="row">
                 <div className="col" style={{ lineHeight: '14px' }}>
@@ -71,7 +71,7 @@ class Modal extends Component {
                 </div>
               </div>
               <p>
-                <b>Finance</b>
+                <b>Finance: </b>
               </p>
               <div className="row">
                 <div className="col" style={{ lineHeight: '14px' }}>
@@ -91,7 +91,7 @@ class Modal extends Component {
                 </div>
               </div>
               <p>
-                <b>Vehicle</b>
+                <b>Vehicle: </b>
               </p>
               <div className="row">
                 <div className="col" style={{ lineHeight: '14px' }}>

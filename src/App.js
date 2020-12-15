@@ -14,6 +14,7 @@ class App extends Component {
     let arr = [];
     for (let i = 1; i <= 5; i++) {
       let obj = {
+        profileImage: faker.image.image(),
         name: {
           firstName: faker.name.firstName(),
           lastName: faker.name.lastName(),
@@ -101,6 +102,18 @@ class App extends Component {
                 <div className="card mt-3 bg-light" style={{ width: '50%' }}>
                   <div style={{ display: 'flex', alignItems: 'center' }}>
                     <div className="card-body" style={{ fontWeight: 'bold' }}>
+                      <span>
+                        <img
+                          src={p.profileImage}
+                          alt="profile img"
+                          style={{
+                            height: '20px',
+                            width: '20px',
+                            marginRight: '15px',
+                            borderRadius: '7px',
+                          }}
+                        />
+                      </span>
                       {p.name.firstName} {p.name.lastName}
                     </div>
                     <div
