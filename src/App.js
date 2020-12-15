@@ -69,18 +69,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <div>
-          <button
-            className="btn btn-success"
-            type="button"
-            data-toggle="modal"
-            data-target="#exampleModal"
-            onClick={this.clicked}
-          >
-            Button
-          </button>
-          {this.state.isClicked ? <Modal /> : null}
-        </div> */}
         <h2
           style={{
             marginTop: '1rem',
